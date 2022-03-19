@@ -1,0 +1,59 @@
+
+body{
+    font-family: 'montserrat', sans-serif;
+    background-image: url('image.jpg');
+   
+    background-position: center;
+    padding-top: 150px;
+    height: 100vh;
+    }
+#main-container{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+#temperature{
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#weather{
+    font-size: larger;
+}
+ .location {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#cityName {
+    padding-bottom: 10px;
+}
+#date{
+    padding-top: 5px;
+}
+
+.current {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+#temperature {
+    padding-bottom: 20px;
+}
+
+#weatherType {
+    padding-bottom: 20px;
+}
+#highLow {
+    padding-bottom: 20px;
+} 
